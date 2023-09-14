@@ -3,6 +3,8 @@
  Program2 creates methods to complete some basic math operations
  */
 
+import java.lang.Math;
+
 public class Program2 {
 
     // returns the addition of two numbers.
@@ -25,15 +27,15 @@ public class Program2 {
         return a / b;
     }
 
-    //
+    // returns the Sin of an angle
     public static double sineOfAngle(double oppSide, double hyp) {
             return oppSide / hyp;
     }
 
-    // TODO #6: finish the method's implementation - assume right triangle
+    // returns the hypotenuse of a right triangle
     public static double hypOfTriangle(double sideA, double sideB) {
-        return (sideA * sideA) + (sideB + sideB);
-        //needs java.lang.math
+        return Math.sqrt((sideA * sideA) + (sideB * sideB));
+
     }
 
 

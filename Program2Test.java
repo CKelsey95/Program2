@@ -2,7 +2,7 @@
  * your name
  * Program 2 - 
  */
-/* REMOVE THIS WHEN JUNIT IS FIXED!!
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -200,12 +200,12 @@ class Program2Test {
     
     @Test
     public void testGoodSine() {
-      assertEquals(0.73, Program2.sinOfAngle(3.0, 4.1), DELTA);
+      assertEquals(0.73, Program2.sineOfAngle(3.0, 4.1), DELTA);
     }
     
     @Test
     public void testBadSine() {
-      assertEquals(0.44, Program2.sinOfAngle(3.0, 4.1), DELTA);
+      assertEquals(0.44, Program2.sineOfAngle(3.0, 4.1), DELTA);
     }
     
     @Test
@@ -220,4 +220,3 @@ class Program2Test {
 
 
 }
-REMOVE THIS WHEN YOU FIX JUNIT!!!!*/
